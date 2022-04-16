@@ -1,0 +1,34 @@
+{
+  "name": "aula_05",
+  "version": "1.0.0",
+  "description": "Organizando serviços",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^0.8.8",
+    "express": "^4.17.1",
+    "express-load": "^1.1.16",
+    "method-override": "^2.3.10",
+    "mongodb": "^4.5.0",
+    "uglify-js": "^3.8.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSWA5/mean_stack_09_ac.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/DSWA5/mean_stack_09_ac/issues"
+  },
+  "homepage": "https://github.com/DSWA5/mean_stack_09_ac#readme"
+}
